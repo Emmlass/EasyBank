@@ -1,0 +1,10 @@
+/* navbar.module.css */
+.noBorderBottom .ant-menu-item {
+  border-bottom: none !important;
+  box-shadow: none !important; /* Remove any box shadow */
+}
+
+.noBorderBottom .ant-menu-item:hover,
+.noBorderBottom .ant-menu-item-active {
+  border-bottom: none !important;
+}
